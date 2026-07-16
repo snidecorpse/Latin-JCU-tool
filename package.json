@@ -1,0 +1,12 @@
+{
+  "name": "latin-sprint",
+  "version": "4.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A mobile-first Book I Latin vocabulary and exercise platform.",
+  "scripts": {
+    "start": "python3 -m http.server 4173",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node --check app.js && node --check vocab-data.js && node --check exercise-data.js && node --check exercise-data-1-5.js && node --check exercise-data-6-10.js && node --check sw.js"
+  }
+}

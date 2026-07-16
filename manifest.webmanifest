@@ -1,0 +1,24 @@
+{
+  "name": "Latin Sprint — Book I Study",
+  "short_name": "Latin Sprint",
+  "description": "An offline-ready Book I Latin course with Vocabulary 1–10 and adapted language exercises.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f7ee",
+  "theme_color": "#f4f7ee",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

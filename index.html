@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#f4f7ee" />
+    <meta name="description" content="A complete Book I Latin study platform with Vocabulary 1–10, extended vocabulary, translations, forms, derivations, and adapted passages." />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Latin Sprint" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="icon" href="assets/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Latin Sprint — Book I Study</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#app-main">Skip to practice setup</a>
+
+    <div id="app" class="app-shell">
+      <header class="topbar" aria-label="Latin Sprint status">
+        <button class="brand" type="button" data-action="home" aria-label="Latin Sprint home">
+          <span class="brand-shield" aria-hidden="true">L</span>
+          <span class="brand-text"><strong>Latin Sprint</strong><small>Book I · Ch. I–X</small></span>
+        </button>
+        <div class="header-actions">
+          <span id="header-streak-chip" class="stat-chip" aria-label="0 day study streak"><span aria-hidden="true">🔥</span><b id="header-streak">0</b></span>
+          <span id="header-xp-chip" class="stat-chip" aria-label="0 total XP"><span aria-hidden="true">✦</span><b id="header-xp">0</b></span>
+          <button class="round-icon-button" type="button" data-action="sound-settings" aria-label="Sound settings"><span aria-hidden="true">🔊</span></button>
+        </div>
+      </header>
+
+      <main id="app-main">
+        <div id="screen"></div>
+      </main>
+    </div>
+
+    <div id="modal-root"></div>
+    <div id="feedback-live" class="sr-only" role="status" aria-live="assertive" aria-atomic="true"></div>
+    <div id="toast-root" class="toast-root" aria-live="assertive"></div>
+
+    <noscript><div class="noscript-card">Latin Sprint needs JavaScript enabled.</div></noscript>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
