@@ -1,6 +1,6 @@
 # Latin Sprint
 
-Latin Sprint is a zero-build Book I Latin study site. PERONAL USE ONLY
+Latin Sprint is a zero-build Book I Latin study site. PERSONAL USE ONLY
 
 ## Local development
 
