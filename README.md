@@ -1,6 +1,6 @@
 # Latin Sprint
 
-Latin Sprint is a zero-build Book I Latin study site. It includes Vocabulary 1–10, a supplemental word bank, and adapted forms, translation, derivation, and passage practice. Progress stays in the browser.
+Latin Sprint is a zero-build Book I Latin study site. PERONAL USE ONLY
 
 ## Local development
 
